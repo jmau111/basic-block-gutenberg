@@ -1,5 +1,6 @@
 {
     "name": "basic-block-gutenberg",
+    "license": "wtfpl",
     "dependencies": {},
     "scripts": {
       "build": "wp-scripts build",

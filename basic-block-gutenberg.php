@@ -4,6 +4,7 @@
  * Plugin name: Basic block Gutenberg
  * Version: 1.0.0
  * Author: Julien Maury
+ * Licence: wtfpl
  */
 defined("ABSPATH") || die("No direct load please...");
 
@@ -24,6 +25,12 @@ add_action("init", function () {
         [],
         false,
         true
+    );
+
+    wp_set_script_translations(
+        'my-block-js', 
+        'basic-block-gutenberg', 
+        plugin_dir_path( dirname( __FILE__ ) ) . "languages"
     );
 
     wp_register_style(
