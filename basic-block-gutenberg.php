@@ -30,7 +30,7 @@ add_action("init", function () {
     wp_set_script_translations(
         'my-block-js', 
         'basic-block-gutenberg', 
-        plugin_dir_path( dirname( __FILE__ ) ) . "languages"
+        plugin_dir_path(__FILE__) . "languages"
     );
 
     wp_register_style(
