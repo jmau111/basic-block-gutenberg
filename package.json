@@ -1,0 +1,11 @@
+{
+    "name": "myblock",
+    "dependencies": {},
+    "scripts": {
+      "build": "wp-scripts build",
+      "dev": "wp-scripts start"
+    },
+    "devDependencies": {
+      "@wordpress/scripts": "^12.3.0"
+    }
+  }
