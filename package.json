@@ -1,5 +1,5 @@
 {
-    "name": "myblock",
+    "name": "basic-block-gutenberg",
     "dependencies": {},
     "scripts": {
       "build": "wp-scripts build",
