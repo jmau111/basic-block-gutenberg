@@ -1,0 +1,12 @@
+{
+    "name": "basic-block-gutenberg",
+    "license": "wtfpl",
+    "dependencies": {},
+    "scripts": {
+      "build": "wp-scripts build",
+      "dev": "wp-scripts start"
+    },
+    "devDependencies": {
+      "@wordpress/scripts": "^12.5.0"
+    }
+  }
