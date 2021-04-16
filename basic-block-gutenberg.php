@@ -2,7 +2,7 @@
 
 /**
  * Plugin name: Basic block Gutenberg
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Julien Maury
  * Licence: wtfpl
  */
@@ -28,8 +28,8 @@ add_action("init", function () {
     );
 
     wp_set_script_translations(
-        'my-block-js', 
-        'basic-block-gutenberg', 
+        'my-block-js',
+        'basic-block-gutenberg',
         plugin_dir_path(__FILE__) . "languages"
     );
 
